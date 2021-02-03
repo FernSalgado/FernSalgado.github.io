@@ -17,7 +17,7 @@ body{
     height: 516px;
 }
 .container{
-    width:90%;
+    width:80%;
     margin-left:auto;
     margin-right:auto;
     display:flex;
@@ -74,17 +74,31 @@ body{
 
 .set{
     background-color:#FF9E5E;
-    margin-right:5%;
+    border:#FF9E5E 10px solid;
+    margin-right:1%;
+    box-sizing: border-box;
+    width:13%;
+}
+.set img{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+#btnDiv{
+    flex-wrap: wrap;
 }
 
 .set:hover{
     background-color:#5E17EB;
+    border:#5E17EB 10px solid;
 }
 
 .teamStash{
     height:1500px;
     width:90%;
     border:#5E17EB 30px solid;
+    overflow:scroll;
 }
 
 .stashTitle{
@@ -122,4 +136,12 @@ body{
 
 .notObtained{
     filter:grayscale();
+}
+
+#elderSet,#uElderSet,#mavenSet,#synthSet,#uAtziriSet,#breachSet{
+    display:none;
+}
+
+.active{
+    border:#5E17EB 10px solid;
 }

@@ -11,7 +11,7 @@
     <div class="banner">
         <label class="title">BPL 3 Super Placeholder Banner</label>
     </div>
-  <div class="container">
+    <div class="container">
         <div class="border ">
             <div class="teamImage"></div>
             <div class="teamName ">MAVEN'S TEAM 1</div>
@@ -31,81 +31,509 @@
             <div class="teamImage"></div>
             <div class="teamName">MAVEN'S TEAM 4</div>
         </div>
-  </div>
-  <br><br>
-  <div class="container">
-        <div class="set">
-            <img src="img/shaper.png">
+    </div>
+    <br><br>
+    <div class="container" id="btnDiv">
+        <div class="set" id="shaperBtn" onclick="changeSet('shaper')">
+            <img src="img/sets/shaper.png">
         </div>
 
-        <div class="set">
-            <img src="img/shaper.png">
+        <div class="set" id="elderBtn" onclick="changeSet('elder')">
+            <img src="img/sets/elder.png">
         </div>
 
-        <div class="set">
-            <img src="img/shaper.png">
+        <div class="set" id="uElderBtn" onclick="changeSet('uElder')">
+            <img src="img/sets/uElder.png">
         </div>
 
-        <div class="set">
-            <img src="img/shaper.png">
+        <div class="set" id="mavenBtn" onclick="changeSet('maven')">
+            <img src="img/sets/maven.png">
         </div>
 
-        <div class="set">
-            <img src="img/shaper.png">
+        <div class="set" id="synthBtn" onclick="changeSet('synth')">
+            <img src="img/sets/synth.png">
         </div>
 
-        <div class="set">
-            <img src="img/shaper.png">
+        <div class="set" id="uAtziriBtn" onclick="changeSet('uAtziri')">
+            <img src="img/sets/uAtziri.png">
         </div>
 
-        <div class="set">
-            <img src="img/shaper.png">
+        <div class="set" id="breachBtn" onclick="changeSet('breach')">
+            <img src="img/sets/breach.png">
         </div>
-  </div>
+    </div>
 
-  <div class="container">
-      <div class="teamStash">
-            <div class="stashTitle">Shaper's Set</div>
+    <div class="container" id="stashSets">
+        <div class="teamStash" id="shaperSet">
+            <div class="stashTitle" >Shaper's Set</div>
             <div class="stashCollection">
                 <div class="stashItem">
                     <div class="stashTitle">Dying Sun</div>
-                    <div class="imgItem notObtained">
-                        <img src="img/sun.png">
+                    <div class="imgItem">
+                        <img src="img/Shaper/sun.png">
                     </div>
                 </div>
 
                 <div class="stashItem">
                     <div class="stashTitle">Shaper's Touch</div>
                     <div class="imgItem">
-                        <img src="img/shaper_touch.png">
+                        <img src="img/Shaper/shaper_touch.png">
                     </div>
                 </div>
 
                 <div class="stashItem">
                     <div class="stashTitle">Solstice Vigil</div>
                     <div class="imgItem">
-                        <img src="img/solstice_vigil.png">
+                        <img src="img/Shaper/solstice_vigil.png">
                     </div>
                 </div>
 
                 <div class="stashItem">
                     <div class="stashTitle">Starforge</div>
                     <div class="imgItem">
-                        <img src="img/starforge.png">
+                        <img src="img/Shaper/starforge.png">
                     </div>
                 </div>
 
                 <div class="stashItem">
                     <div class="stashTitle">Voidwalker</div>
-                    <div class="imgItem notObtained">
-                        <img src="img/voidwalker.png">
+                    <div class="imgItem">
+                        <img src="img/Shaper/voidwalker.png">
                     </div>
                 </div>
             </div>
-      </div>
-  </div>
+        </div>
 
-  <script src="./js/init.js.download"></script>
+        <div class="teamStash" id="elderSet">
+            <div class="stashTitle" >Elder's Set</div>
+            <div class="stashCollection">
+                <div class="stashItem">
+                    <div class="stashTitle">Blasphemer's Grasp</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/blasphemer_grasp.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Cyclopean Coil</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/cyclopean_coil.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Hopeshredder</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/hopeshredder.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Impressence (Cold)</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/impressence_cold.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Impressence (Fire)</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/impressence_fire.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Impressence (Light.)</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/impressence_light.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Impressence (Chaos)</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/impressence_chaos.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Impressence (Phys.)</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/impressence_phys.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Nebuloch</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/nebuloch.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Shimmeron</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/shimmeron.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Watcher's Eye</div>
+                    <div class="imgItem">
+                        <img src="img/Elder/watchers_eye.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="teamStash" id="uElderSet">
+            <div class="stashTitle" >Uber Elder's Set</div>
+            <div class="stashCollection">
+                <div class="stashItem">
+                    <div class="stashTitle">Disintegrator</div>
+                    <div class="imgItem">
+                        <img src="img/uElder/Disintegrator.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">The Eternity Shroud</div>
+                    <div class="imgItem">
+                        <img src="img/uElder/The_Eternity.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Mark of the Elder</div>
+                    <div class="imgItem">
+                        <img src="img/uElder/Mark_of_the_Elder.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Mark of the Shaper</div>
+                    <div class="imgItem">
+                        <img src="img/uElder/Mark_of_the_Shaper.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Indigon</div>
+                    <div class="imgItem">
+                        <img src="img/uElder/Indigon.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Voidforge</div>
+                    <div class="imgItem">
+                        <img src="img/uElder/Voidforge.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Watcher's Eye</div>
+                    <div class="imgItem">
+                        <img src="img/uElder/watchers_eye.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Voidfletcher</div>
+                    <div class="imgItem">
+                        <img src="img/uElder/Voidfletcher.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="teamStash" id="uAtziriSet">
+            <div class="stashTitle" >Uber Atziri's Set</div>
+            <div class="stashCollection">
+                <div class="stashItem">
+                    <div class="stashTitle">Atziri's Acuity</div>
+                    <div class="imgItem">
+                        <img src="img/uAtziri/acuity.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Atziri's Disfavour</div>
+                    <div class="imgItem">
+                        <img src="img/uAtziri/disfavour.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Atziri's Splendour</div>
+                    <div class="imgItem">
+                        <img src="img/uAtziri/splendour.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">The Vertex</div>
+                    <div class="imgItem">
+                        <img src="img/uAtziri/vertex.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="teamStash" id="mavenSet">
+            <div class="stashTitle" >Maven's Set</div>
+            <div class="stashCollection">
+                <div class="stashItem">
+                    <div class="stashTitle">Arn's Anguish</div>
+                    <div class="imgItem">
+                        <img src="img/Maven/arns.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Viridi's Veil</div>
+                    <div class="imgItem">
+                        <img src="img/Maven/Viridi.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Doppelgänger Guise</div>
+                    <div class="imgItem">
+                        <img src="img/Maven/doppel.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Legacy of Fury</div>
+                    <div class="imgItem">
+                        <img src="img/Maven/legacy.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Graven's Secret</div>
+                    <div class="imgItem">
+                        <img src="img/Maven/graven.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Olesya's Delight</div>
+                    <div class="imgItem">
+                        <img src="img/Maven/olesya.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="teamStash" id="synthSet">
+            <div class="stashTitle" >Synthesis Set</div>
+            <div class="stashCollection">
+                <div class="stashItem">
+                    <div class="stashTitle">Bottled Faith</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Bottled_Faith.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Circle of Anguish</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Circle_of_Anguish.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Circle of Fear</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Circle_of_Fear.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Circle of Guilt</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Circle_of_Guilt.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Circle of Nostalgia</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Circle_of_Nostalgia.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Circle of Regret</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Circle_of_Regret.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Garb of the Ephemeral</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Garb_of_the_Ephemeral.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Offering to the Serpent</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Offering_to_the_Serpent.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Mask of the Tribunal</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Mask_of_the_Tribunal.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Storm's Gift</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Storms_Gift.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Bottled Faith</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Bottled_Faith.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Perepiteia</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Perepiteia.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Nebulis</div>
+                    <div class="imgItem ">
+                        <img src="img/Synthesis/Nebulis.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="teamStash" id="breachSet">
+            <div class="stashTitle" >Breach Set</div>
+            <div class="stashCollection">
+                <div class="stashItem">
+                    <div class="stashTitle">The Formless Inferno</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/The_Formless_Inferno.png">
+                    </div>
+                </div>
+
+                <div class="stashItem">
+                    <div class="stashTitle">Xoph's Blood</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/Xophs_Blood.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">Xoph's Nurture</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/xophs_nurture.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">The Pandemonius</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/The_Pandemonius.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">The Perfect Form</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/The_Perfect_Form.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">Tulfall</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/Tulfall.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">Choir of the Storm</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/Choir_of_the_Storm.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">Hand of Wisdom and Action</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/Hand_of_Wisdom_and_Action.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">Esh's Visage</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/Eshs_Visage.png">
+                    </div>
+                </div>                
+                <div class="stashItem">
+                    <div class="stashTitle">The Surrender</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/The_Surrender.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">The Red Trail</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/The_Red_Trail.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">Uul-Netol's Embrace</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/Uul-Netols_Embrace.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">Skin of the Lords</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/Skin_of_the_Lords.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">United in Dream</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/United_in_Dream.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">The Blue Nightmare</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/The_Blue_Nightmare.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">The Green Nightmare</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/The_Green_Nightmare.png">
+                    </div>
+                </div>
+                <div class="stashItem">
+                    <div class="stashTitle">The Red Nightmare</div>
+                    <div class="imgItem">
+                        <img src="img/Breach/The_Red_Nightmare.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <script src="./js/main.js"></script>
 
   
 
